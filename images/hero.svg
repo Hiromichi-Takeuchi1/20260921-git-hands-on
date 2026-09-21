@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 650" role="img" aria-labelledby="title desc">
+<title id="title">海風が通り抜ける、ひだまり商店街</title><desc id="desc">穏やかな海を背に、喫茶店、本屋、パン屋、花屋、雑貨店の軒先が並ぶ、暖かい色合いの商店街のイラスト。</desc>
+<defs>
+  <pattern id="paper" width="48" height="48" patternUnits="userSpaceOnUse"><circle cx="5" cy="9" r=".7" fill="#80654c" opacity=".12"/><circle cx="31" cy="33" r=".6" fill="#80654c" opacity=".09"/><path d="M18 20h2m20-8h2" stroke="#80654c" opacity=".07"/></pattern>
+  <pattern id="roof" width="22" height="13" patternUnits="userSpaceOnUse"><path d="M0 12H22M0 0V12M11 0V12" fill="none" stroke="#885d44" stroke-width="1" opacity=".35"/></pattern>
+  <pattern id="pavers" width="90" height="32" patternUnits="userSpaceOnUse"><path d="M0 31H90M45 0V31" fill="none" stroke="#b4a38a" stroke-width="1" opacity=".2"/></pattern>
+  <g id="window"><rect width="55" height="62" rx="2" fill="#e9eadc"/><rect x="5" y="5" width="45" height="52" fill="#8ca8a4"/><path d="M27 5V57M5 31H50" stroke="#f4eddb" stroke-width="4"/><path d="M8 9L21 9L8 23M31 35L46 35L31 50" fill="#c2d5cd" opacity=".65"/></g>
+  <g id="sprig" fill="#688375" stroke="#526d5b" stroke-width="2"><path d="M0 0v-53" fill="none"/><ellipse cx="-9" cy="-38" rx="6" ry="13" transform="rotate(-35 -9 -38)"/><ellipse cx="9" cy="-25" rx="6" ry="13" transform="rotate(35 9 -25)"/><ellipse cx="-8" cy="-15" rx="5" ry="11" transform="rotate(-45 -8 -15)"/></g>
+</defs>
+<rect width="1440" height="650" fill="#f4ecda"/>
+<path d="M0 320C205 307 362 316 560 307S1010 299 1440 309V491H0Z" fill="#aac3bb"/>
+<path d="M0 352c140-15 241 10 365-3m824-7c82 6 143-7 251-1M18 381h87m1165-5h87m-72 33h94" stroke="#eaf0dd" stroke-width="3" fill="none"/>
+<path d="M0 305c153-46 210-16 326-47 144-38 303 38 453 7 165-34 245-12 385 30 96 29 190 7 276 0v18H0Z" fill="#bfcec0"/>
+<circle cx="1165" cy="109" r="60" fill="#e7b870"/>
+<g stroke="#c89656" stroke-width="2" stroke-linecap="round"><path d="M1165 28v-9m0 179v-9m81-80h10m-192 0h10m148-57 7-7m-128 128 7-7m114 0 7 7m-128-128 7 7"/></g>
+<g fill="#fbf6e9"><path d="M78 121c-1-17 17-26 28-17 8-24 48-23 50 7 27-7 36 23 15 27H81c-11 0-15-11-3-17Z"/><path d="M775 96c-2-14 10-23 24-17 8-19 33-15 39 7 17-5 35 11 22 21h-78c-11 0-17-6-7-11Z"/></g>
+<g fill="none" stroke="#718a83" stroke-width="2.5" stroke-linecap="round"><path d="M427 94q10-10 21 0q10-10 21 0m-116 53q8-9 17 0q9-9 17 0m944-22q10-10 20 0q9-10 19 0"/></g>
+<path d="M34 320l7-87h23l7 87Z" fill="#f8f1db" stroke="#65786d" stroke-width="2"/><path d="M38 268h29l-2-16H40Z" fill="#c27a5e"/><path d="M39 233v-21h26v21M35 211l17-13 18 13Z" fill="#bd6c51" stroke="#65786d" stroke-width="2"/><rect x="49" y="285" width="10" height="20" fill="#899e97"/>
+<path d="M0 485C355 470 963 473 1440 488V650H0Z" fill="#daccae"/>
+<path d="M0 540C358 526 1052 529 1440 548V650H0Z" fill="#e9dec8"/><path d="M0 540C358 526 1052 529 1440 548" fill="none" stroke="#baaa8d" stroke-width="3"/>
+<path d="M0 572C400 556 1055 563 1440 581V650H0Z" fill="url(#pavers)"/>
+<!-- 喫茶店：三角屋根と赤い縞のひさし -->
+<g stroke="#725945" stroke-linejoin="round" stroke-width="2.5">
+  <path d="M91 493V225H295V493" fill="#dbb477"/><path d="M73 234L187 153 312 234Z" fill="#b97758"/><path d="M73 234L187 153 312 234Z" fill="url(#roof)"/><path d="M77 237H308" fill="none" stroke-width="6"/>
+  <circle cx="190" cy="211" r="18" fill="#f6e4b8"/><path d="M180 211h20m-10-10v20" stroke="#ab8256"/>
+  <rect x="115" y="258" width="154" height="44" rx="3" fill="#f4e6ca"/><path d="M129 292h126" stroke="#b89768" stroke-width="1"/>
+  <rect x="110" y="345" width="84" height="131" fill="#eed8a9"/><rect x="119" y="355" width="66" height="78" fill="#586d60"/><path d="M152 355v78m-33-37h66" stroke="#e6ce9c" stroke-width="4"/><path d="M122 431c7-19 13-15 22 0m15 0c5-22 13-24 21 0" fill="#d8ae6c" stroke="none"/>
+  <rect x="207" y="343" width="63" height="151" fill="#886c4b"/><rect x="215" y="353" width="47" height="88" fill="#7e9790"/><path d="M238 353v88m-23-44h47" stroke="#c3a371" stroke-width="3"/><circle cx="258" cy="456" r="3" fill="#ead09b" stroke="none"/>
+  <path d="M100 311H285L300 352H85Z" fill="#f1dabc"/><path d="M117 311h23l-5 41h-25Zm45 0h24v41h-26Zm46 0h24l4 41h-25Zm46 0h23l14 41h-25Z" fill="#b66a53" stroke="none"/>
+  <path d="M85 352v12q11 13 22 0 11 13 22 0 11 13 22 0 11 13 22 0 11 13 22 0 11 13 22 0 11 13 22 0 11 13 22 0 11 13 22 0 8 11 17 0v-12" fill="#eacfac"/>
+  <path d="M110 482H194" stroke-width="7"/><path d="M125 463h52" stroke="#ad8657"/>
+</g>
+<text x="192" y="285" text-anchor="middle" fill="#765740" font-size="19" letter-spacing="4" font-family="Georgia,serif">KISSA</text>
+<!-- 本屋：青緑の木の壁 -->
+<g stroke="#705b47" stroke-width="2.5" stroke-linejoin="round">
+  <path d="M323 488V218H557V491" fill="#a6b5a0"/><path d="M314 217h252v17H314Z" fill="#74918a"/><path d="M329 247H550m-221 29H550m-221 29H550" stroke="#8f9f8a" stroke-width="1"/>
+  <use href="#window" x="357" y="249"/><use href="#window" x="468" y="249"/>
+  <rect x="344" y="329" width="189" height="38" rx="2" fill="#f1e3c6"/>
+  <rect x="342" y="384" width="131" height="96" fill="#526b62"/><path d="M348 432H467m-62-43v85" stroke="#c3c6ac" stroke-width="4"/>
+  <path d="M354 427v-25h8v25m5 0v-31h10v31m6 0v-27h8v27m25 0v-25h7v25m5 0 4-30 9 2-4 28m8 0v-26h12v26" stroke="#d8bb81" stroke-width="6"/>
+  <path d="M354 469v-24h11v24m6 0v-19h6v19m7 0v-26h8v26m22 0v-23h12v23m6 0v-20h8v20m8 0v-27h9v27" stroke="#b57856" stroke-width="6"/>
+  <rect x="488" y="383" width="48" height="108" fill="#e3cfab"/><rect x="495" y="391" width="34" height="69" fill="#77918a"/><circle cx="527" cy="474" r="2.5" fill="#705b47" stroke="none"/>
+</g>
+<text x="438" y="355" text-anchor="middle" fill="#58766d" font-family="Georgia,serif" font-size="19" letter-spacing="3">NAMI BOOKS</text>
+<!-- パン屋：煉瓦、丸窓、白いパラソル色のひさし -->
+<g stroke="#715441" stroke-width="2.5" stroke-linejoin="round">
+  <path d="M586 491V247L616 184H814L844 247V492" fill="#cc9878"/><path d="M576 250L611 176H819L854 250Z" fill="#976747"/><path d="M576 250L611 176H819L854 250Z" fill="url(#roof)"/>
+  <path d="M613 281H817m-204 21H817m-204-41H817m-177 0v20m34 0v21m34-41v20m34 0v21m34-41v20" stroke="#b17f61" stroke-width="1.5"/>
+  <rect x="610" y="312" width="210" height="42" rx="21" fill="#f5e4bd"/><path d="M695 215q20-21 40 0v19h-40Z" fill="#dfc690"/><path d="M715 199v35m-20-19h40" fill="none"/>
+  <rect x="609" y="391" width="110" height="85" fill="#677869"/><rect x="735" y="391" width="79" height="100" fill="#6c715c"/><path d="M743 451v-35q0-18 30-18t31 18v35Z" fill="#c3c8a6"/>
+  <path d="M616 448h94m-80 0q-14-33 7-37 26 0 13 37m14 0q-13-37 9-39 25 5 16 39" fill="#ddb875" stroke="#92704d" stroke-width="2"/><path d="M627 420l15 6m-15 7 15 6m26-18 14 5m-13 8 14 5" fill="none"/>
+  <path d="M598 359H831L851 391H578Z" fill="#f7e9c9"/><path d="M578 391v11q17 13 34 0 17 13 34 0 17 13 34 0 17 13 34 0 17 13 34 0 17 13 34 0 17 13 34 0 18 13 35 0v-11" fill="#f7e9c9"/>
+  <path d="M773 413v25m-9-16 18 8" stroke="#ede1b8"/><circle cx="801" cy="467" r="3" fill="#e7c895" stroke="none"/>
+</g>
+<text x="715" y="339" text-anchor="middle" fill="#a76645" font-family="Georgia,serif" font-size="20" letter-spacing="3">BAKERY</text>
+<!-- 花屋：豊かな鉢植えと縞のひさし -->
+<g stroke="#75604a" stroke-width="2.5" stroke-linejoin="round">
+  <path d="M867 492V232H1090V492" fill="#e9d6a8"/><path d="M857 231h243v18H857Z" fill="#c4a577"/><path d="M882 262h67v66h-67Zm126 0h65v66h-65Z" fill="#cfbc94"/><use href="#window" x="888" y="262"/><use href="#window" x="1013" y="262"/>
+  <rect x="879" y="344" width="200" height="40" fill="#f4e9d0"/><rect x="890" y="399" width="107" height="82" fill="#738a76"/><rect x="1010" y="399" width="65" height="93" fill="#839582"/>
+  <path d="M875 381h209l15 24H860Z" fill="#f4e8c9"/><path d="M891 381h22l-4 24h-25Zm46 0h22v24h-25Zm47 0h22l3 24h-25Zm47 0h23l8 24h-26Z" fill="#90a68d" stroke="none"/>
+  <path d="M888 484v-25m45 25v-36m43 35v-25" stroke="#c2ab7f" stroke-width="5"/>
+  <path d="M893 459q-24-38-26-20t23 17m4 0q-3-44 10-40t-9 40m42-3q-37-46-22-49t26 46m-1-7q-5-60 7-56t-5 55m-1 13q40-37 34-17t-30 25m34-7q-11-39-21-28t20 33m2-7q27-27 30-16t-30 24" fill="#7d9675" stroke="#6d805f" stroke-width="2"/>
+  <path d="M874 457h36l-6 31h-24Zm47-5h42l-6 39h-30Zm42 9h35l-5 28h-25Z" fill="#bf8060"/>
+</g>
+<g fill="#daa487" stroke="#bd8061" stroke-width="1.5"><circle cx="923" cy="418" r="8"/><circle cx="946" cy="411" r="9"/><circle cx="962" cy="427" r="8"/><circle cx="982" cy="436" r="7"/><circle cx="887" cy="429" r="8"/></g>
+<text x="979" y="371" text-anchor="middle" fill="#6d7f61" font-family="Georgia,serif" font-size="19" letter-spacing="5">HANATO</text>
+<!-- 雑貨店：海色の入り口 -->
+<g stroke="#725c47" stroke-width="2.5" stroke-linejoin="round">
+  <path d="M1114 492V271H1333V494" fill="#e0c08e"/><path d="M1102 272l26-63h191l27 63Z" fill="#7f9690"/><path d="M1117 262h213m-206-17h199m-191-17h183" stroke="#647f78" stroke-width="1.5"/>
+  <rect x="1140" y="291" width="167" height="45" rx="2" fill="#f2e7ce"/><rect x="1134" y="382" width="90" height="95" fill="#738e85"/><path d="M1140 430h78" stroke="#e1c596" stroke-width="4"/>
+  <path d="M1146 425v-19h22v19m12 0v-12h23v12m-52 53v-22h15v22m15 0q-12-24 5-27t16 27" fill="#d9c69e" stroke="#b9ac84" stroke-width="2"/>
+  <path d="M1242 491V400q0-30 34-30t35 30v92Z" fill="#536f69"/><path d="M1250 438v-34q0-26 26-26t26 26v34Z" fill="#a6bfb0"/><path d="M1276 378v60m-26-30h52" stroke="#527167" stroke-width="3"/>
+  <path d="M1127 348h193l17 34h-227Z" fill="#819d95"/><path d="M1110 382v9h227v-9" fill="#698a80"/>
+  <circle cx="1301" cy="458" r="3" fill="#e3c89c" stroke="none"/>
+</g>
+<text x="1224" y="321" text-anchor="middle" fill="#5f7c70" font-family="Georgia,serif" font-size="18" letter-spacing="3">KURASHI</text>
+<!-- 軒先の小さなものたち -->
+<g stroke="#715d49" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M295 496l9-73h40l8 73" fill="#c39b65"/><path d="M309 429h30v47h-35Z" fill="#536d61"/><path d="M312 439h20m-21 7h17m-18 7h21m-20 7h15" stroke="#dfddbd" stroke-width="1.5"/>
+  <path d="M557 492l10-60h30l9 60" fill="#e5c38d"/><path d="M572 441h16m-17 7h17m-18 7h18" stroke="#997c50"/>
+  <path d="M831 493v-32m-8 2h38m-11-13v41" stroke="#7c8d70"/><path d="M827 452h29v12h-29Z" fill="#dfc791"/>
+  <path d="M1055 497v-51m0 6-10-11m10 31 12-11" stroke="#56785e"/><path d="M1038 486h34l-5 25h-24Z" fill="#c58567"/>
+  <use href="#sprig" x="64" y="486"/><path d="M46 481h36l-6 31H52Z" fill="#c08b65"/>
+  <use href="#sprig" x="1357" y="489"/><use href="#sprig" x="1378" y="489"/><path d="M1343 482h48l-7 32h-34Z" fill="#ae805b"/>
+</g>
+<!-- 自転車 -->
+<g fill="none" stroke="#725d47" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="401" cy="520" r="27" fill="#e2d4b9"/><circle cx="485" cy="520" r="27" fill="#e2d4b9"/>
+  <path d="M401 520l25-43 27 43Zm25-43h45l-18 43m18-43 14 43m-15-43-5-21h13m-55 16 5 12m-12-15h19" stroke="#a86345" stroke-width="4"/>
+  <path d="M380 498h36m64-41h22l-4 24h-16Z" fill="#c9ae7b"/><path d="M486 463h13m-12 6h11" stroke-width="1"/>
+  <path d="M391 507l20 26m-22-10 25-7m61-9 18 26m-20-10 24-7" stroke="#b2a17f" stroke-width="1"/>
+</g>
+<!-- ひなたの猫 -->
+<g fill="#c38c60" stroke="#806349" stroke-width="2" stroke-linejoin="round"><path d="M1179 520q-18-30 1-42l2-13 10 7 11-6 2 15q17 15-2 40Z"/><path d="M1178 519q-26 1-30-13-4-14 6-15 7 0 6 8" fill="none" stroke-width="7" stroke-linecap="round"/><path d="M1187 486h1m11 0h1m-11 21v13m9-13v13" stroke="#765a42" stroke-linecap="round"/><path d="m1191 491 3 2 3-2" fill="none"/></g>
+<g fill="#b6a584"><ellipse cx="668" cy="557" rx="3" ry="1.2"/><ellipse cx="692" cy="568" rx="3" ry="1.2"/><ellipse cx="113" cy="586" rx="3" ry="1.2"/><ellipse cx="1020" cy="583" rx="3" ry="1.2"/><ellipse cx="985" cy="563" rx="3" ry="1.2"/><ellipse cx="1300" cy="566" rx="3" ry="1.2"/></g>
+<path d="M0 609c248-15 413-3 568-8s360 3 515 10 263 1 357-4" stroke="#f4ebd6" stroke-width="2" fill="none"/>
+<rect width="1440" height="650" fill="url(#paper)"/>
+</svg>

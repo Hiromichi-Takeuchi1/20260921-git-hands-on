@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="title desc"><title id="title">ひだまり商店街のお店</title><desc id="desc">太陽の看板と縞のひさしのある、商店街のお店を描いた共通イラスト。</desc><defs><pattern id="paper" width="45" height="45" patternUnits="userSpaceOnUse"><circle cx="8" cy="13" r=".8" fill="#7d6650" opacity=".1"/><circle cx="32" cy="36" r=".7" fill="#7d6650" opacity=".08"/></pattern></defs><rect width="800" height="560" fill="#e9dec5"/>
+<circle cx="614" cy="116" r="46" fill="#e5b269"/><path d="M85 151q12-16 24 0 12-16 24 0m-38 36q9-12 19 0 10-12 20 0" stroke="#92a79a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M0 453q402-38 800 0v107H0Z" fill="#d2c4a8"/><ellipse cx="400" cy="471" rx="266" ry="23" fill="#9d9075" opacity=".16"/>
+<g stroke="#78624a" stroke-width="3" stroke-linejoin="round">
+<path d="M189 456V180h422v276Z" fill="#d8bb8d"/><path d="M174 180l32-74h388l33 74Z" fill="#9cad99"/><path d="M183 165h434m-424-21h414m-404-22h394" stroke="#839982" stroke-width="2"/>
+<rect x="292" y="193" width="216" height="62" rx="5" fill="#f3e7c9"/><circle cx="400" cy="224" r="17" fill="#d6a05c" stroke="none"/><path d="M400 200v-4m0 56v-5m-25-23h-5m60 0h-5m-43-18-4-4m44 44-4-4m0-36 4-4m-44 44 4-4" stroke="#c79355" stroke-width="2"/>
+<rect x="220" y="315" width="182" height="113" fill="#7d998b"/><path d="M311 315v113m-91-57h182" stroke="#ebd5ad" stroke-width="5"/><path d="M227 321h76l-76 52m89 6h78l-78 46" fill="#b4c9b2" opacity=".5" stroke="none"/>
+<path d="M442 456V331q0-24 55-24t55 24v125Z" fill="#718b79"/><path d="M452 372v-37q0-18 45-18t45 18v37Z" fill="#bfd0b3"/><path d="M497 319v53m-45-18h90" stroke="#718b79"/><circle cx="539" cy="407" r="4" fill="#e9d2a2" stroke="none"/>
+<path d="M198 273h404l22 49H176Z" fill="#f4e4c3"/><path d="M223 273h48l-6 49h-53Zm93 0h48l-2 49h-53Zm94 0h48l3 49h-53Zm94 0h48l10 49h-54Z" fill="#bb8060" stroke="none"/>
+<path d="M176 322v16q19 15 38 0 19 15 38 0 19 15 38 0 19 15 38 0 19 15 38 0 19 15 38 0 19 15 38 0 19 15 38 0 19 15 38 0 19 15 38 0 19 15 38 0 15 12 30 0v-16" fill="#f0dcba"/>
+<path d="m328 458 10-79h56l13 79" fill="#b18a5d"/><path d="m344 386-5 50h52l-6-50Z" fill="#5f7a68"/><path d="M353 397h24m-25 10h26m-27 10h18" stroke="#e5dec1" stroke-width="2"/>
+</g>
+<g stroke="#6f8465" stroke-width="3" fill="#91a37b"><path d="M163 448v-95m0 36q-43-15-30-37 29 0 30 37m0 31q47-30 34-47-30 6-34 47m472 20v-71m0 37q-35-32-20-44 27 8 20 44m0 18q46-19 31-38-23 6-31 38"/></g><g fill="#bd8967" stroke="#78624a" stroke-width="3"><path d="M137 434h55l-9 39h-38Zm475-5h49l-8 44h-33Z"/></g>
+<rect width="800" height="560" fill="url(#paper)"/></svg>
