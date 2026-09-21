@@ -632,7 +632,7 @@ h2 {
 .footer-bottom > span {
   white-space: nowrap;
 }
-/* 店舗詳細。内容は shop.html と src/shop.js の共通テンプレートです。 */
+/* 店舗詳細。各 shops/*.html に本文を直接書きます。 */
 .detail-main {
   padding-top: 24px;
   padding-bottom: 62px;
@@ -1135,29 +1135,3 @@ h2 {
     transition: none !important;
   }
 }
-
-/* HTML を直接開いた参加者向けの確認欄。公開サイトでは表示しません。 */
-.local-preview {
-  background: #e8edde;
-  border-bottom: 1px solid #c5cdb8;
-  font-size: 13px;
-}
-.local-preview-inner {
-  width: 90%;
-  max-width: 1296px;
-  margin: auto;
-  padding: 16px 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px 24px;
-  align-items: center;
-  justify-content: space-between;
-}
-.local-preview-inner > div:first-child { flex: 1 1 320px; }
-.local-preview strong { font-size: 14px; }
-.local-preview p { margin-top: 3px; }
-.preview-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
-.local-preview .button { background: var(--white); min-height: 44px; font-size: 13px; padding: 8px 14px; }
-.preview-reset { border: 0; background: transparent; text-decoration: underline; text-underline-offset: 3px; min-height: 44px; font-size: 12px; }
-.preview-errors { flex-basis: 100%; color: #913621; margin: 0; padding-left: 22px; overflow-wrap: anywhere; }
-.preview-errors:empty { display: none; }

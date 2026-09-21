@@ -1,7 +1,7 @@
-node_modules/
-dist/
+_site/
 .DS_Store
 *.local
 .env
 .env.*
 .test-artifacts/
+__pycache__/

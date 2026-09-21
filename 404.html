@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ページが見つかりません｜ひだまり商店街</title>
+    <!-- 深い URL でも表示できるよう、この案内のスタイルはここに書いています。 -->
+    <style>
+      body { margin: 0; padding: 12vh 6%; background: #f8f6ee; color: #353b34; font-family: sans-serif; text-align: center; line-height: 1.9; }
+      h1 { font-size: clamp(24px, 5vw, 36px); }
+      .sun { color: #ab452e; font-size: 48px; }
+      a { display: inline-block; margin-top: 22px; padding: 12px 24px; background: #ab452e; color: #fffefa; border-radius: 3px; }
+      a:focus-visible { outline: 3px solid #256375; outline-offset: 5px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="sun" aria-hidden="true">☀</p>
+      <p>ひだまり商店街</p>
+      <h1>ページが見つかりませんでした</h1>
+      <p>お探しのお店やページは見つかりません。<br />一覧から、気になるお店を探してみてください。</p>
+      <a id="back-to-shops" href="./index.html#shops">商店街のお店へ戻る</a>
+    </main>
+    <script>
+      // GitHub Pages で shops/ 内の存在しないページを開いた場合の戻り先です。
+      if (location.pathname.includes('/shops/')) {
+        document.querySelector('#back-to-shops').href = '../index.html#shops';
+      }
+    </script>
+  </body>
+</html>

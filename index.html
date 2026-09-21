@@ -11,28 +11,11 @@
     <title>ひだまり商店街｜海のそば、暮らしのそば。</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="stylesheet" href="./src/styles.css" />
-    <script defer src="./src/data/categories.js"></script>
-    <script defer src="./src/data/shop-validation.js"></script>
-    <script defer src="./src/data/shop-data.js"></script>
-    <script defer src="./src/data/shops.js"></script>
-    <script defer src="./src/data/news.js"></script>
     <script defer src="./src/main.js"></script>
-    <script defer src="./src/local-preview.js"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">本文へスキップ</a>
 
-    <aside class="local-preview" id="local-preview" aria-label="ローカルでの表示確認" hidden>
-      <div class="local-preview-inner">
-        <div><strong>ローカルでの表示確認</strong><p id="preview-status" role="status" aria-live="polite"></p></div>
-        <div class="preview-actions">
-          <button class="button button-outline" type="button" id="load-shop-files">店舗データを読み込む</button>
-          <button class="preview-reset" type="button" id="reset-preview">同梱の店舗に戻す</button>
-          <input id="shop-files" type="file" accept=".json,application/json" multiple hidden />
-        </div>
-        <ul id="preview-errors" class="preview-errors" aria-live="assertive"></ul>
-      </div>
-    </aside>
     <header class="site-header">
       <a
         class="brand"
@@ -139,16 +122,146 @@
             id="category-filters"
             role="group"
             aria-label="お店のカテゴリ"
-          ></div>
+          >
+            <button class="filter-button" type="button" data-category="all" aria-pressed="true">すべてのお店</button>
+            <button class="filter-button" type="button" data-category="food" aria-pressed="false">飲食店</button>
+            <button class="filter-button" type="button" data-category="cafe" aria-pressed="false">喫茶店</button>
+            <button class="filter-button" type="button" data-category="books" aria-pressed="false">書店</button>
+            <button class="filter-button" type="button" data-category="goods" aria-pressed="false">雑貨店</button>
+            <button class="filter-button" type="button" data-category="flowers" aria-pressed="false">花屋</button>
+          </div>
           <p
             class="result-count"
             id="result-count"
             role="status"
             aria-live="polite"
             aria-atomic="true"
-          ></p>
+          >6店舗中 6店舗</p>
         </div>
-        <div class="shop-grid" id="shop-list"></div>
+        <div class="shop-grid" id="shop-list">
+          <!-- 店舗カード：カテゴリは food / cafe / books / goods / flowers。 -->
+          <!-- くらしの雑貨 つむぎ：この article が一覧の1店舗分です。 -->
+          <article class="shop-card" data-category="goods">
+            <a class="shop-card-link" href="./shops/kurashi-zakka.html">
+              <div class="shop-card-image">
+                <img src="./images/shops/kurashi-zakka.svg" alt="陶器の花瓶とボトル、お皿、カップが並ぶイラスト" width="800" height="560" loading="lazy" />
+                <span class="card-visit" aria-hidden="true">↗</span>
+              </div>
+              <div class="shop-card-body">
+                <p class="card-meta">
+                  <span class="category-label">雑貨店</span>
+                  <span class="card-address">波音小路 2-6</span>
+                </p>
+                <h3>くらしの雑貨 つむぎ</h3>
+                <p class="card-tagline">いつもの暮らしに、小さなお気に入り。</p>
+                <p class="card-description">使うほどに手になじむ器、やわらかな布もの、机の上が少し楽しくなる文房具。つむぎは、毎日の暮らしで長く使える道具を集めた雑貨店です。棚のあちこちに、小さな工房から届いた品が並びます。自分へのおみやげにも、大切な人への贈りものにも。迷ったときは、店主と一緒にゆっくり選びましょう。</p>
+                <span class="card-detail">お店について <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+          </article>
+
+          <!-- しおかぜベーカリー：この article が一覧の1店舗分です。 -->
+          <article class="shop-card" data-category="food">
+            <a class="shop-card-link" href="./shops/shiokaze-bakery.html">
+              <div class="shop-card-image">
+                <img src="./images/shops/shiokaze-bakery.svg" alt="紙袋に入ったバゲットと焼きたてのパンのイラスト" width="800" height="560" loading="lazy" />
+                <span class="card-visit" aria-hidden="true">↗</span>
+              </div>
+              <div class="shop-card-body">
+                <p class="card-meta">
+                  <span class="category-label">飲食店</span>
+                  <span class="card-address">こもれび通り 1-5</span>
+                </p>
+                <h3>しおかぜベーカリー</h3>
+                <p class="card-tagline">朝の商店街に、焼きたてのしあわせ。</p>
+                <p class="card-description">早起きした朝に寄りたくなる、家族で営むまちのパン屋です。毎朝少しずつ焼くパンは、毎日食べても飽きない素朴な味。看板の塩バターロールは、底のかりっとした食感が自慢です。お昼には季節の野菜を挟んだサンドイッチも並びます。紙袋を抱えて、海辺のベンチまでお散歩しませんか。</p>
+                <span class="card-detail">お店について <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+          </article>
+
+          <!-- みなと食堂：この article が一覧の1店舗分です。 -->
+          <article class="shop-card" data-category="food">
+            <a class="shop-card-link" href="./shops/minato-shokudo.html">
+              <div class="shop-card-image">
+                <img src="./images/shops/minato-shokudo.svg" alt="焼き魚、ごはん、みそ汁、小鉢の定食のイラスト" width="800" height="560" loading="lazy" />
+                <span class="card-visit" aria-hidden="true">↗</span>
+              </div>
+              <div class="shop-card-body">
+                <p class="card-meta">
+                  <span class="category-label">飲食店</span>
+                  <span class="card-address">みなと横丁 3-4</span>
+                </p>
+                <h3>みなと食堂</h3>
+                <p class="card-tagline">おなかも心も、ただいまと言える場所。</p>
+                <p class="card-description">紺色ののれんをくぐると、ごはんの湯気とおだしの香り。みなと食堂は、働く人も散歩の人も肩を並べる、まちの定食屋です。焼き魚や煮物に小鉢を添えて、一食ずつ丁寧にお出しします。昼のおすすめは店先の黒板で。海辺でたくさん歩いた日には、あたたかいごはんでおなかを満たしてください。</p>
+                <span class="card-detail">お店について <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+          </article>
+
+          <!-- 花と、日々。：この article が一覧の1店舗分です。 -->
+          <article class="shop-card" data-category="flowers">
+            <a class="shop-card-link" href="./shops/hanato.html">
+              <div class="shop-card-image">
+                <img src="./images/shops/hanato.svg" alt="季節の花束と、枝を生けた花瓶のイラスト" width="800" height="560" loading="lazy" />
+                <span class="card-visit" aria-hidden="true">↗</span>
+              </div>
+              <div class="shop-card-body">
+                <p class="card-meta">
+                  <span class="category-label">花屋</span>
+                  <span class="card-address">こもれび通り 3-1</span>
+                </p>
+                <h3>花と、日々。</h3>
+                <p class="card-tagline">一輪からはじまる、いい一日。</p>
+                <p class="card-description">店先に季節の花と緑があふれる、商店街の小さな花屋です。特別な日の花束はもちろん、食卓に飾る一輪も気軽にどうぞ。花の名前やお手入れのことは、その場でお伝えします。ご予算や贈る相手の雰囲気に合わせた花束も承ります。お買いもの帰りに、今日の気分に似た色を探してみてください。</p>
+                <span class="card-detail">お店について <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+          </article>
+
+          <!-- 喫茶こもれび：この article が一覧の1店舗分です。 -->
+          <article class="shop-card" data-category="cafe">
+            <a class="shop-card-link" href="./shops/komorebi-kissa.html">
+              <div class="shop-card-image">
+                <img src="./images/shops/komorebi-kissa.svg" alt="コーヒーと厚切りバタートーストを木のテーブルに並べたイラスト" width="800" height="560" loading="lazy" />
+                <span class="card-visit" aria-hidden="true">↗</span>
+              </div>
+              <div class="shop-card-body">
+                <p class="card-meta">
+                  <span class="category-label">喫茶店</span>
+                  <span class="card-address">こもれび通り 1-2</span>
+                </p>
+                <h3>喫茶こもれび</h3>
+                <p class="card-tagline">いつもの一杯と、何もしない時間。</p>
+                <p class="card-description">商店街の角で、ゆっくりとコーヒーを淹れる小さな喫茶店です。朝の光が差す窓辺には、使い込まれた木の椅子と、少しだけ背の低いテーブル。深煎りのブレンドと昔ながらの固めのプリンをおともに、散歩の途中でひと息ついていってください。おひとりでも、本を片手でも、どうぞ。</p>
+                <span class="card-detail">お店について <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+          </article>
+
+          <!-- 波まち書房：この article が一覧の1店舗分です。 -->
+          <article class="shop-card" data-category="books">
+            <a class="shop-card-link" href="./shops/nami-books.html">
+              <div class="shop-card-image">
+                <img src="./images/shops/nami-books.svg" alt="開いた本と色とりどりの本を重ねたイラスト" width="800" height="560" loading="lazy" />
+                <span class="card-visit" aria-hidden="true">↗</span>
+              </div>
+              <div class="shop-card-body">
+                <p class="card-meta">
+                  <span class="category-label">書店</span>
+                  <span class="card-address">波音小路 2-3</span>
+                </p>
+                <h3>波まち書房</h3>
+                <p class="card-tagline">まだ知らない一冊と、待ち合わせ。</p>
+                <p class="card-description">旅のエッセイ、暮らしの本、絵本に小さな出版社の読み物。店主が一冊ずつ選んだ本が、古い木の棚に並ぶ書店です。海の見えるまちで読みたい本を集めた「波まちの棚」には、手書きのおすすめも添えています。探している本が決まっていなくても大丈夫。ページをめくりながら、気になる一冊を見つけてください。</p>
+                <span class="card-detail">お店について <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+          </article>
+
+          <!-- 新しいお店のカードを、この行の上に追加してください。 -->
+        </div>
         <div class="empty-state" id="no-results" hidden>
           <span class="empty-icon" aria-hidden="true">⌕</span>
           <h3>お店が見つかりませんでした</h3>
@@ -159,7 +272,7 @@
         </div>
         <noscript
           ><p class="empty-state">
-            お店の一覧と検索を利用するには、ブラウザのJavaScriptを有効にしてください。
+            すべてのお店を表示しています。検索とカテゴリ絞り込みを使う場合は、JavaScriptを有効にしてください。
           </p></noscript
         >
       </section>
@@ -178,7 +291,30 @@
             <p>商店街の、ちいさなできごと。</p>
             <span class="news-flower" aria-hidden="true">✳</span>
           </div>
-          <div class="news-list" id="news-list"></div>
+          <div class="news-list" id="news-list">
+            <!-- 新しいお知らせは details をコピーして、この下の先頭に追加します。 -->
+            <details class="news-item">
+              <summary>
+                <span class="news-meta"><time datetime="2026-09-18">2026.09.18</time><span class="news-category">イベント</span></span>
+                <span class="news-title">秋の「ひだまりよりみち市」を開催します</span>
+              </summary>
+              <p>10月11日（日）10:00〜15:00、商店街の小さな広場に焼き菓子や古本、季節の花が集まります。お散歩がてら、お立ち寄りください。</p>
+            </details>
+            <details class="news-item">
+              <summary>
+                <span class="news-meta"><time datetime="2026-09-12">2026.09.12</time><span class="news-category">まちの便り</span></span>
+                <span class="news-title">潮風通りに、ひと休みできるベンチができました</span>
+              </summary>
+              <p>お買い物の合間に、海を眺めてひと息。商店街の入口に木のベンチを置きました。お持ち帰りのコーヒーのおともにもどうぞ。</p>
+            </details>
+            <details class="news-item">
+              <summary>
+                <span class="news-meta"><time datetime="2026-09-01">2026.09.01</time><span class="news-category">お知らせ</span></span>
+                <span class="news-title">ひだまり商店街の案内サイトができました</span>
+              </summary>
+              <p>商店街のお店や、日々のできごとをお届けします。次のお休みに行ってみたいお店を、見つけていただけたらうれしいです。</p>
+            </details>
+          </div>
         </div>
       </section>
     </main>
@@ -203,30 +339,5 @@
       </div>
     </footer>
 
-    <template id="shop-card-template">
-      <article class="shop-card">
-        <a class="shop-card-link">
-          <div class="shop-card-image">
-            <img width="800" height="560" loading="lazy" /><span
-              class="card-visit"
-              aria-hidden="true"
-              >↗</span
-            >
-          </div>
-          <div class="shop-card-body">
-            <p class="card-meta">
-              <span class="category-label"></span
-              ><span class="card-address"></span>
-            </p>
-            <h3></h3>
-            <p class="card-tagline"></p>
-            <p class="card-description"></p>
-            <span class="card-detail"
-              >お店について <span aria-hidden="true">→</span></span
-            >
-          </div>
-        </a>
-      </article>
-    </template>
   </body>
 </html>
